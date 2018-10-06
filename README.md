@@ -1,4 +1,9 @@
 # Plasma MVP
+ganache-cli -m="plasma_mvp"
+
+set PATH=%PATH%;"C:\Program Files (x86)\GnuWin32\bin"
+
+python -m pip install C:\Twisted-18.7.0-cp36-cp36m-win32.whl
 
 We're implementing [Minimum Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426). This repository represents a work in progress and will undergo large-scale modifications as requirements change.
 
